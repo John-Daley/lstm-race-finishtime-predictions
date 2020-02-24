@@ -14,4 +14,15 @@ from keras.layers import Flatten
 from keras.layers import RepeatVector
 from keras.layers import TimeDistributed
 
-# here I will attempt to divide the training and test sets
+
+
+## The model will be defined here under - the first number is the the hidden layer of neurons(units) 
+## it will use the Sequential library from keras, the activation will be relu, and the input shape will consist of the 
+# the number of steps and the number of features. 
+
+
+
+# # here I will attempt to divide the training and test sets
+# def split_dataset(data):
+#     train, test = data[]
+    
